@@ -3,12 +3,12 @@ const beginEle = document.getElementById('textarea_begin'),
     endEle = document.getElementById('textarea_end');
 
 class vEvent {
-    constructor(start, end, summary, categories) {
+    constructor(start, end, summary, desc) {
         this.uid = this.generateUUID();
         this.start = start;
         this.end = end;
         this.summary = summary;
-        this.categories = categories;
+        this.desc = desc;
     }
 
     generateUUID() {
@@ -40,7 +40,7 @@ class vEvent {
     }
 
     output() {
-        return `BEGIN:VEVENT\nUID:${this.uid}\nDTSTART;VALUE=DATE:${this.start}\nDTEND;VALUE=DATE:${this.end}\nCLASS:PUBLIC\nSUMMARY;LANGUAGE=zh_CN:${this.summary}\nTRANSP:TRANSPARENT\nCATEGORIES:${this.categories}\nEND:VEVENT`;
+        return `BEGIN:VEVENT\nUID:${this.uid}\nDTSTART;TZID=Asia/Shanghai:${this.start}\nDTEND;TZID=Asia/Shanghai:${this.end}\nCLASS:PUBLIC\nSUMMARY:${this.summary}\nDESCRIPTION:${this.desc}\nEND:VEVENT`;
     }
 }
 
