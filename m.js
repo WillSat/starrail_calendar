@@ -44,13 +44,9 @@ class vEvent {
     }
 }
 
-eventsEle.addEventListener('change', function() {
-    this.value = this.value.replaceAll(/\s*,\s*$/g, '').replaceAll(/\s*,\s*/g, ', ');
-})
-
 function generate() {
     const eventsArr = [];
-    const str = eventsEle.value.replaceAll(/[\s\n]/g, '');
+    const str = eventsEle.value;
     const tempArr = JSON.parse(str);
     for (const subArr of tempArr) {
         eventsArr.push((new vEvent(...subArr)).output());
