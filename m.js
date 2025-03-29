@@ -46,7 +46,7 @@ class vEvent {
 
 function generate() {
     const eventsArr = [];
-    const str = eventsEle.value;
+    const str = eventsEle.value.replaceAll(/[\s\n]/g, '');
     const tempArr = JSON.parse(str);
     for (const subArr of tempArr) {
         eventsArr.push((new vEvent(...subArr)).output());
