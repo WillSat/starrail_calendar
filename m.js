@@ -40,7 +40,7 @@ class vEvent {
     }
 
     output() {
-        return `BEGIN:VEVENT\nUID:${this.uid}\nDTSTART;TZID=Asia/Shanghai:${this.start}\nDTEND;TZID=Asia/Shanghai:${this.end}\nCLASS:PUBLIC\nSUMMARY:${this.summary}\nDESCRIPTION:${this.desc}\nEND:VEVENT`;
+        return `BEGIN:VEVENT\nUID:${this.uid}\nDTSTART;TZID=Asia/Shanghai:${this.start}\nDTEND;TZID=Asia/Shanghai:${this.end}\nSUMMARY:${this.summary}\nDESCRIPTION:${this.desc}\nEND:VEVENT`;
     }
 }
 
