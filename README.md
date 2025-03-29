@@ -1,6 +1,6 @@
 # StarRail Calendar
 
-> “ 能和我玩一辈子星铁吗 :D ”
+> “ 能和我玩一辈子星铁吗🥺 ”
 
 提供 `.ics` 日历订阅文件，记录游戏《崩坏：星穹铁道》的事件，同步更新。
 
@@ -23,7 +23,7 @@
 ## 食用方法（iOS 日历举例）
 
 > 订阅地址：[https://willsat.github.io/starrail_calendar/full.ics](https://willsat.github.io/starrail_calendar/full.ics)  
-> 大陆 Github Pages 时常失效，订阅不了其他时间试试喵~
+> 大陆 Github Pages 时常失效，订阅不了其他时间试试喵~ (￣﹃￣)
 
 <table>
     <tr>
@@ -33,3 +33,12 @@
         <td><img src="assets/step4.JPEG" /></td>
     </tr>
 </table>
+
+## `JSON` 形式的数据
+
+> 这能有什么用呢？🤔
+
+- [3.1.json](3.1.json)  
+- [3.2.json](3.2.json)  
+- [3.3.json](3.3.json)  
+- [3.4.json](3.4.json)  
