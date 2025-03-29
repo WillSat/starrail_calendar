@@ -46,7 +46,16 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:崩坏：星穹铁道
 X-APPLE-LANGUAGE:zh
 X-APPLE-REGION:CN</textarea>
-    <textarea id="textarea_events" placeholder="vCalendar Event Block">20250226T110000Z, 20250226T110000Z, 3.1 上半版本, 版本更新</textarea>
+    <textarea id="textarea_events" placeholder="vCalendar Event Block">
+[
+    ["20250226T110000Z", "-", "3.1 上半版本开启", "版本更新"],
+    [
+        "20250409T110000Z",
+        "-",
+        "3.2 上半版本开启",
+        "「走过安眠地的花丛」遐蝶 / 忘归人 / 椒丘 / 黄泉；佩拉 / 加拉赫 / 玲可；捕获梦华进行首充双倍重置；6元、30元特惠礼包限时上架"
+    ]
+]</textarea>
     <textarea id="textarea_end" placeholder="vCalendar End Block">END:VCALENDAR</textarea>
 
     <button onclick="javascript:generate()">Generate</button>

@@ -50,11 +50,10 @@ eventsEle.addEventListener('change', function() {
 
 function generate() {
     const eventsArr = [];
-    for (const event of eventsEle.value.split('\n')) {
-        const argList = event.trim().replaceAll(/\s*,\s*$/g, '').replaceAll(/\s*,\s*/g, ',').split(',');
-        if (argList.length === 4) {
-            eventsArr.push((new vEvent(...argList)).output());
-        }
+    const str = eventsEle.value.replaceAll(/[\s\n]/g, '');
+    const tempArr = JSON.parse(str);
+    for (const subArr of tempArr) {
+        eventsArr.push((new vEvent(...subArr)).output());
     }
 
     console.log([beginEle.value, eventsArr.join('\n'), endEle.value].join('\n'));
