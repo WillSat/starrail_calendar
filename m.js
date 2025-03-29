@@ -3,9 +3,8 @@ const beginEle = document.getElementById('textarea_begin'),
     endEle = document.getElementById('textarea_end');
 
 class vEvent {
-    constructor(stamp, start, end, summary, categories) {
+    constructor(start, end, summary, categories) {
         this.uid = this.generateUUID();
-        this.stamp = stamp;
         this.start = start;
         this.end = end;
         this.summary = summary;
@@ -41,7 +40,7 @@ class vEvent {
     }
 
     output() {
-        return `BEGIN:VEVENT\nDTSTAMP;VALUE=DATE:${this.stamp}\nUID:${this.uid}\nDTSTART;VALUE=DATE:${this.start}\nDTEND;VALUE=DATE:${this.end}\nCLASS:PUBLIC\nSUMMARY;LANGUAGE=zh_CN:${this.summary}\nTRANSP:TRANSPARENT\nCATEGORIES:${this.categories}\nEND:VEVENT`;
+        return `BEGIN:VEVENT\nUID:${this.uid}\nDTSTART;VALUE=DATE:${this.start}\nDTEND;VALUE=DATE:${this.end}\nCLASS:PUBLIC\nSUMMARY;LANGUAGE=zh_CN:${this.summary}\nTRANSP:TRANSPARENT\nCATEGORIES:${this.categories}\nEND:VEVENT`;
     }
 }
 
@@ -53,7 +52,7 @@ function generate() {
     const eventsArr = [];
     for (const event of eventsEle.value.split('\n')) {
         const argList = event.trim().replaceAll(/\s*,\s*$/g, '').replaceAll(/\s*,\s*/g, ',').split(',');
-        if (argList.length === 5) {
+        if (argList.length === 4) {
             eventsArr.push((new vEvent(...argList)).output());
         }
     }
