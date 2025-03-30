@@ -40,7 +40,12 @@ class vEvent {
     }
 
     output() {
-        return `BEGIN:VEVENT\nUID:${this.uid}\nDTSTART;TZID=Asia/Shanghai:${this.start}\nDTEND;TZID=Asia/Shanghai:${this.end}\nSUMMARY:${this.summary}\nDESCRIPTION:${this.desc}\nEND:VEVENT`;
+        const tempArr = [`BEGIN:VEVENT\nUID:${this.uid}\nDTSTART;TZID=Asia/Shanghai:${this.start}\n`];
+        if (this.end) tempArr.push(`DTEND;TZID=Asia/Shanghai:${this.end}\n`);
+        tempArr.push(`SUMMARY:${this.summary}\n`);
+        if (this.desc) tempArr.push(`DESCRIPTION:${this.desc}\n`);
+        tempArr.push(`END:VEVENT`);
+        return tempArr.join('');
     }
 }
 

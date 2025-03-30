@@ -30,8 +30,8 @@ const eventListEle = document.getElementById('event_list');
 
         sumEle.textContent = sum;
         begSpan.textContent = beg;
-        endSpan.textContent = end;
-        desEle.textContent = des;
+        endSpan.textContent = end ?? '';
+        desEle.textContent = des ?? '';
 
         dtEle.appendChild(begSpan);
         dtEle.appendChild(endSpan);
