@@ -34,6 +34,10 @@
     </tr>
 </table>
 
-## `JSON` 形式的数据
+## 日历数据检视
+
+[https://willsat.github.io/starrail_calendar/](https://willsat.github.io/starrail_calendar/)
+
+## `JSON`
 
 [full.json](full.json)  
