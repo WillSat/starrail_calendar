@@ -28,7 +28,6 @@ hr {
 
         padding: 6px;
         border-radius: 6px;
-        box-shadow: 0 0 8px #00000015;
         margin: 6px;
         background-color: beige;
 
@@ -59,7 +58,11 @@ hr {
         }
 
         &[ver_update] {
+            display: block;
             background-color: #ffeae7;
+            max-width: unset;
+            width: calc(100% - 12px);
+            box-shadow: 0 2px 8px #00000015;
         }
     }
 }
