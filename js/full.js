@@ -9,7 +9,7 @@ const eventListEle = document.getElementById('event_list');
     function randerList(list) {
         const tempArr = [];
         for (const event of list) {
-            if (event.length === 4) {
+            if (event.length !== 0) {
                 tempArr.push(createListItem(...event));
             }
         }
@@ -20,7 +20,7 @@ const eventListEle = document.getElementById('event_list');
     }
 
     // 
-    function createListItem(beg, end, sum, des) {
+    function createListItem(beg, end, sum, des, rrule) {
         const wrapperEle = $('div', 'listitem');
         const sumEle = $('div', 'itemtitle');
         const dtEle = $('div', 'itemdatetime');
@@ -32,6 +32,7 @@ const eventListEle = document.getElementById('event_list');
         begSpan.textContent = beg;
         endSpan.textContent = end ?? '';
         desEle.textContent = des ?? '';
+        if (rrule) desEle.innerHTML += `<br>RRULE:${rrule}`;
 
         dtEle.appendChild(begSpan);
         dtEle.appendChild(endSpan);
@@ -48,6 +49,11 @@ const eventListEle = document.getElementById('event_list');
         // chall_update
         if (sum === '混沌回忆更新' || sum === '虚构叙事更新' || sum === '末日幻影更新') {
             wrapperEle.setAttribute('chall_update', 'chall_update');
+        }
+
+        // RRULE
+        if (rrule) {
+            wrapperEle.setAttribute('rrule', 'rrule');
         }
 
         return wrapperEle;
