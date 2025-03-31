@@ -45,6 +45,11 @@ const eventListEle = document.getElementById('event_list');
             wrapperEle.setAttribute('ver_update', 'ver_update');
         }
 
+        // chall_update
+        if (sum === '混沌回忆更新' || sum === '虚构叙事更新' || sum === '末日幻影更新') {
+            wrapperEle.setAttribute('chall_update', 'chall_update');
+        }
+
         return wrapperEle;
 
         function $(e, cN) {
