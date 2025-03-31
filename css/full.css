@@ -68,5 +68,9 @@ hr {
         &[chall_update] {
             background-color: #e5ebff;
         }
+
+        &[rrule] {
+            background-color: #f8e5ff;
+        }
     }
 }

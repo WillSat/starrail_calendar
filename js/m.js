@@ -3,12 +3,13 @@ const beginEle = document.getElementById('textarea_begin'),
     endEle = document.getElementById('textarea_end');
 
 class vEvent {
-    constructor(start, end, summary, desc) {
+    constructor(start, end, summary, desc, rrule) {
         this.uid = this.generateUUID();
         this.start = start;
         this.end = end;
         this.summary = summary;
         this.desc = desc;
+        this.rrule = rrule;
     }
 
     generateUUID() {
@@ -42,6 +43,7 @@ class vEvent {
     output() {
         const tempArr = [`BEGIN:VEVENT\nUID:${this.uid}\nDTSTART;TZID=Asia/Shanghai:${this.start}\n`];
         if (this.end) tempArr.push(`DTEND;TZID=Asia/Shanghai:${this.end}\n`);
+        if (this.rrule) tempArr.push(`RRULE:${this.rrule}\n`);
         tempArr.push(`SUMMARY:${this.summary}\n`);
         if (this.desc) tempArr.push(`DESCRIPTION:${this.desc}\n`);
         tempArr.push(`END:VEVENT`);
