@@ -64,5 +64,9 @@ hr {
             width: calc(100% - 12px);
             box-shadow: 0 2px 8px #00000015;
         }
+
+        &[chall_update] {
+            background-color: #e5ebff;
+        }
     }
 }
