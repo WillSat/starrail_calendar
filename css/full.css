@@ -7,12 +7,6 @@ body {
     background-color: #eeeeee;
 }
 
-hr {
-    background-color: #e0e0e0;
-    border: 0;
-    height: 1px;
-}
-
 #event_list {
     width: 100%;
     padding: 6px;
