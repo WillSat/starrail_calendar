@@ -31,8 +31,8 @@ const eventListEle = document.getElementById('event_list');
         sumEle.textContent = sum;
         begSpan.textContent = beg;
         endSpan.textContent = end ?? '';
-        desEle.textContent = des ?? '';
-        if (rrule) desEle.innerHTML += `<br>RRULE:${rrule}`;
+        if (des) desEle.innerHTML = des.replaceAll('\\n', '<br>');
+        if (rrule) desEle.innerHTML += `<hr>RRULE:${rrule}`;
 
         dtEle.appendChild(begSpan);
         dtEle.appendChild(endSpan);
