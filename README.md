@@ -18,13 +18,6 @@
     </tr>
 </table>
 
-<iframe id="open-web-calendar" 
-    style="background:url('https://raw.githubusercontent.com/niccokunzmann/open-web-calendar/master/static/img/loaders/circular-loader.gif') center center no-repeat;"
-    src="https://icsviewer.ecam.fr/calendar.html?css=.dhx_after%20.dhx_month_body%2C%20.dhx_before%20.dhx_month_body%2C%20.dhx_after%20.dhx_month_head%2C%20.dhx_before%20.dhx_month_head%20%7B%20background-color%3A%20%23eeeeee%3B%20%7D&amp;language=zh_Hans&amp;timezone=Asia%2FShanghai&amp;title=Starrail%20Calendar&amp;url=https%3A%2F%2Fwillsat.github.io%2Fstarrail_calendar%2Ffull.ics"
-    sandbox="allow-scripts allow-same-origin allow-top-navigation"
-    allowTransparency="true" scrolling="no" 
-    frameborder="0" height="600px" width="100%"></iframe>
-
 ## 当前日历数据透视
 
 - [https://willsat.github.io/starrail_calendar/](https://willsat.github.io/starrail_calendar/)  
