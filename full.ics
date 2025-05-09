@@ -228,10 +228,10 @@ SUMMARY:「豹豹碰碰大作战」开启
 DESCRIPTION:在这「满溢之杯」赐福的欢喜月，三季海庭正在筹备一场小海豹水上碰撞主题的狂欢节，作为传说中的「预言之子」，你怎么能缺席呢？
 END:VEVENT
 BEGIN:VEVENT
-UID:4a-35fbc7c3
+UID:3a5adcddd
 DTSTART;TZID=Asia/Shanghai:20250426T100000
 SUMMARY:星穹列车年度开拓报告
-DESCRIPTION:你有一份开拓2周年数据回顾报告等待查收～，参与活动还可获得星琼*180~
+DESCRIPTION:你有一份开拓二周年数据回顾报告等待查收～
 END:VEVENT
 BEGIN:VEVENT
 UID:62274cf151
@@ -253,13 +253,6 @@ SUMMARY:「星铁LIVE」2025 线下
 DESCRIPTION:《崩坏：星穹铁道》演唱会将于浦发银行东方体育中心举行，并将在5月3日同步开启线上全球直播，一同重温开拓之旅的音乐记忆！
 END:VEVENT
 BEGIN:VEVENT
-UID:2978d5b0ab
-DTSTART;TZID=Asia/Shanghai:20250506
-DTEND;TZID=Asia/Shanghai:20250508
-SUMMARY:3.4新角色立绘发布
-DESCRIPTION:白厄 / ？
-END:VEVENT
-BEGIN:VEVENT
 UID:3a79e9d398
 DTSTART;TZID=Asia/Shanghai:20250509T040000
 DTEND;TZID=Asia/Shanghai:20250519T035959
@@ -267,20 +260,27 @@ SUMMARY:异器盈界300%
 DESCRIPTION:隧洞遗器限时三倍掉落。
 END:VEVENT
 BEGIN:VEVENT
-UID:2969953c2c
-DTSTART;TZID=Asia/Shanghai:20250509T193000
-SUMMARY:3.3前瞻直播开启
-END:VEVENT
-BEGIN:VEVENT
 UID:26-1d6e66a8
 DTSTART;TZID=Asia/Shanghai:20250512T040000
 SUMMARY:混沌回忆更新
 END:VEVENT
 BEGIN:VEVENT
-UID:2d-11b7df27
+UID:46568261f6
 DTSTART;TZID=Asia/Shanghai:20250521T110000
 SUMMARY:3.3上半开启
-DESCRIPTION:「在黎明升起时坠落」
+DESCRIPTION:「在黎明升起时坠落」\n风堇 / 大黑塔；米沙 / 希露瓦 / 娜塔莎
+END:VEVENT
+BEGIN:VEVENT
+UID:60-172a2e84
+DTSTART;TZID=Asia/Shanghai:20250521T110000
+SUMMARY:「极速追影」开启（时间暂未确定）
+DESCRIPTION:由公司和家族联合承办的「极速杯」球笼竞速锦标赛报名现已火热开启，最强车手即将集结匹诺康尼，争夺巅峰荣耀！
+END:VEVENT
+BEGIN:VEVENT
+UID:5c-4a8e7524
+DTSTART;TZID=Asia/Shanghai:20250521T110000
+SUMMARY:「银河球棒侠传说：魔王篇」开启（时间暂未确定）
+DESCRIPTION:新的冒险已经开启——追寻黑斗篷魔王的踪迹，夺回最强球棒，登上「银河球棒侠」之巅吧！
 END:VEVENT
 BEGIN:VEVENT
 UID:266dadd4c8
@@ -293,9 +293,10 @@ DTSTART;TZID=Asia/Shanghai:20250609T040000
 SUMMARY:虚构叙事更新
 END:VEVENT
 BEGIN:VEVENT
-UID:275f467018
+UID:3a-3ba01da7
 DTSTART;TZID=Asia/Shanghai:20250611T120000
 SUMMARY:3.3下半开启
+DESCRIPTION:赛飞儿 / 阿格莱亚；青雀 / 雪衣 / 素裳
 END:VEVENT
 BEGIN:VEVENT
 UID:27-ea9284e
@@ -303,16 +304,16 @@ DTSTART;TZID=Asia/Shanghai:20250702T110000
 SUMMARY:3.4上半开启
 END:VEVENT
 BEGIN:VEVENT
+UID:7924cad547
+DTSTART;TZID=Asia/Shanghai:20250711T120000
+SUMMARY:Fate UBW 联动跃迁开启
+DESCRIPTION:限定五星角色 Saber（毁灭·风）/ Archer（巡猎·量子）；至 3.6 版本结束前，登录游戏即可免费领取联动限定5星角色 Archer（巡猎·量子）
+END:VEVENT
+BEGIN:VEVENT
 UID:4a-2f1fe1ae
 DTSTART;TZID=Asia/Shanghai:20250711T120000
 SUMMARY:「命运/今晚留下来」开启
 DESCRIPTION:召唤英灵、解放令咒、施展宝具、尝试不同职阶，一起来进行策略性战斗吧！
-END:VEVENT
-BEGIN:VEVENT
-UID:79296e90e8
-DTSTART;TZID=Asia/Shanghai:20250711T120000
-SUMMARY:Fate_UBW 联动跃迁开启
-DESCRIPTION:限定五星角色 Saber（毁灭·风）/ Archer（巡猎·量子）；至 3.6 版本结束前，登录游戏即可免费领取联动限定5星角色 Archer（巡猎·量子）
 END:VEVENT
 BEGIN:VEVENT
 UID:27-10cfadeb
