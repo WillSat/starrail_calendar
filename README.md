@@ -26,8 +26,11 @@
 
 ## 食用方法（以 iOS 日历举例，其他平台同理）
 
-> 订阅地址：Github Pages：https://willsat.github.io/starrail_calendar/full.ics  
-> 订阅地址：Github Raw：https://raw.githubusercontent.com/WillSat/starrail_calendar/refs/heads/main/full.ics
+> *以下订阅地址内容相同，选取一个可用的就好*
+> 订阅地址1：Github Pages：https://willsat.github.io/starrail_calendar/full.ics  
+> 订阅地址2：Github Raw：https://raw.githubusercontent.com/WillSat/starrail_calendar/refs/heads/main/full.ics  
+> *由于大陆 GitHub Pages 遭到 DNS 污染，可能会订阅失败。故提供 Cloudflare Pages 备份*  
+> 订阅地址3：Cloudflare Pages：https://starrail-calendar.pages.dev/full.ics  
 
 <table>
     <tr>
