@@ -27,7 +27,6 @@
 ## 食用方法（以 iOS 日历举例，其他平台同理）
 
 > 订阅地址：Github Pages：[https://willsat.github.io/starrail_calendar/full.ics  ](https://willsat.github.io/starrail_calendar/full.ics)  
-> 
 > 订阅地址：Github Raw：[https://github.com/WillSat/starrail_calendar/raw/refs/heads/main/full.ics](https://raw.githubusercontent.com/WillSat/starrail_calendar/refs/heads/main/full.ics)
 
 <table>
