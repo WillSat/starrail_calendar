@@ -26,8 +26,8 @@
 
 ## 食用方法（以 iOS 日历举例，其他平台同理）
 
-> 订阅地址：Github Pages：https://willsat.github.io/starrail_calendar/full.ics  
-> 订阅地址：Github Raw：https://github.com/WillSat/starrail_calendar/raw/refs/heads/main/full.ics
+> 订阅地址：Github Pages：[https://willsat.github.io/starrail_calendar/full.ics  ](https://willsat.github.io/starrail_calendar/full.ics)
+> 订阅地址：Github Raw：[https://github.com/WillSat/starrail_calendar/raw/refs/heads/main/full.ics](https://raw.githubusercontent.com/WillSat/starrail_calendar/refs/heads/main/full.ics)
 
 <table>
     <tr>
@@ -37,10 +37,3 @@
         <td><img src="assets/step4.JPEG" /></td>
     </tr>
 </table>
-
-> 针对中国大陆的网络情况，推荐使用反向代理。可用性自行测试喵～
-> - https://gh.scy.ink/https://github.com/WillSat/starrail_calendar/raw/refs/heads/main/full.ics
-> - https://gh.qninq.cn/https://github.com/WillSat/starrail_calendar/raw/refs/heads/main/full.ics
-> - https://hub.gitmirror.com/https://github.com/WillSat/starrail_calendar/raw/refs/heads/main/full.ics
-> - https://ghproxy.monkeyray.net/https://github.com/WillSat/starrail_calendar/raw/refs/heads/main/full.ics
-> - https://gh.b52m.cn/https://github.com/WillSat/starrail_calendar/raw/refs/heads/main/full.ics
