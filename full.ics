@@ -229,12 +229,6 @@ SUMMARY:「豹豹碰碰大作战」开启
 DESCRIPTION:在这「满溢之杯」赐福的欢喜月，三季海庭正在筹备一场小海豹水上碰撞主题的狂欢节，作为传说中的「预言之子」，你怎么能缺席呢？
 END:VEVENT
 BEGIN:VEVENT
-UID:3a5adcddd
-DTSTART;TZID=Asia/Shanghai:20250426T100000
-SUMMARY:星穹列车年度开拓报告
-DESCRIPTION:你有一份开拓二周年数据回顾报告等待查收～
-END:VEVENT
-BEGIN:VEVENT
 UID:62274cf151
 DTSTART;TZID=Asia/Shanghai:20250428T120000
 SUMMARY:「星芒启明」开启
@@ -291,10 +285,11 @@ SUMMARY:「极速追影」开启
 DESCRIPTION:由公司和家族联合承办的「极速杯」球笼竞速锦标赛报名现已火热开启，最强车手即将集结匹诺康尼，争夺巅峰荣耀！
 END:VEVENT
 BEGIN:VEVENT
-UID:27940f058
+UID:2d-f4138e8
 DTSTART;TZID=Asia/Shanghai:20250617
 DTEND;TZID=Asia/Shanghai:20250619
 SUMMARY:3.5新角色立绘发布
+DESCRIPTION:海瑟音 / 刻律德菈
 END:VEVENT
 BEGIN:VEVENT
 UID:3646d6aa5a
